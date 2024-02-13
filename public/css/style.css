@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+.navbar .navbar-nav a{
+    color:black;
+    border-radius:10px;
+    transition:all ease .3s;
+}
+
+.navbar .navbar-nav li{
+    padding: 3px 8px;
+}
+
+.navbar .navbar-nav a:hover{
+    color: white;
+    background: #ff8028b3;
+}
+
+.red{
+    background:#ff8028b3;
+}
+
+.orange a{
+    color:#ff8028b3 !important;
+}
+
+.sidebarHeading{
+    color:black;
+    font-size:35px;
+    border-bottom: 5px solid #000000;
+}
+
+p{
+    margin:0;
+}
+h1{
+    font-weight:bold;
+}
+hr{
+    background: gray;
+}
+h2{
+    font-size:20px;
+    margin:0;
+}
+h1 a, h2 a{
+    color:black;
+    font-weight:bold;
+    text-decoration: none;
+}
+h1 a:hover, h2 a:hover{
+    color:blue !important;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+.searchBox .row {
+    margin-bottom:7px;  
+}
+
+.sideHeading a{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    float: inline-start;
+}
+.sideHeading a:hover{
+    color:blue;
+}
+
+.otherPost p{
+    font-size:12px;
+}
+
+.otherPostHr{
+    width: 80%;
+    margin: auto;
+    margin-top: 7px;
+    background: #ffa668;
+    color: #ffa668;
+    padding:4px;
+    opacity:.5;
+}
+
+.find {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-wrap: wrap;
+    font-weight: 600;
+    padding: 50px 156px;
+    text-shadow: -3px 1px 29px yellow;
+    color:red;
+}
+
+.category{
+    background:#ffa668 !important;
+}
+
+.drop-down{
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background: black;
+    padding: 2px 12px;
+    list-style:none;
+}
+.drop-down a {
+    color:white !important;
+}
+
+.d-down:hover .drop-down{
+    display:block;
+}
+
+
+.to-top{
+    position: fixed;
+    bottom: 72px;
+    right: 36px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 2px 10px;
+    border-radius: 50px;
+    filter: drop-shadow(5px 2px 11px orange);
+    background: linear-gradient(45deg, yellow, red, orange);
+    color: #c6ff68;
+    transition:all .8s ease;
+}
+
+.to-top:hover {
+    padding: 6px 21px 9px 6px;
+    filter: invert(1);
+    color: white;
+    text-shadow: 0px 15px 5px #004fff;
+    box-shadow: 0px 26px 27px #0086ff;
+}
